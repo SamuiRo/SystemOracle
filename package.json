@@ -1,0 +1,19 @@
+{
+  "name": "systemoracle",
+  "version": "1.0.0",
+  "description": "System Oracle Service",
+  "main": "oracle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup-service": "bash service.sh",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "systeminformation": "^5.25.11"
+  }
+}
